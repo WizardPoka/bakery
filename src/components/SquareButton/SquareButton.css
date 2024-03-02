@@ -1,0 +1,33 @@
+/* SquareButton.css */
+.square-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона кнопки */
+    border-radius: 10px; /* Радиус скругления углов */
+    cursor: pointer;
+    border: 0px;
+    margin: 10px;
+    width: 100%; /* Занимать 100% ширины родительского контейнера */
+    box-sizing: border-box; /* Добавим box-sizing */
+    overflow: hidden; /* Обрезаем излишний контент */
+  }
+  
+  .square-button img {
+    /* width: 100%; */
+    height: 300px;
+    
+    object-fit: cover; /* Заполнение изображения без искажений */
+    border-radius: 10px; /* Радиус скругления углов (если нужно) */
+    
+}
+
+.square-button-text {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    margin: 0;
+    padding: 0px 0px 10px 10px;
+    color: white;
+    
+}
