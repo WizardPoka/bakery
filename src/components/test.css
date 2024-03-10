@@ -1,0 +1,36 @@
+/* Style=Secondary, Small=False, Dark mode=False, Icon position=Trailing */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 12px;
+
+position: absolute;
+width: 132px;
+height: 48px;
+left: 185px;
+top: 373px; */
+
+/* Black */
+/* border: 1px solid #000000; */
+/* Colour Swatch */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 416.33px;
+height: 276px;
+
+background: #FFFFFF;
+border-radius: 8px; */
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 1; */

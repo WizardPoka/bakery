@@ -18,6 +18,7 @@ import cake from "../../images/cake.jpg";
 import cookies from "../../images/cookies.jpg";
 import salad from "../../images/salad.jpg";
 import semi_finished_products from "../../images/semi_finished_products.jpg";
+import Card from "../Cards/Card";
 
 function Home() {
   const { navigateTo } = useNavigation();
@@ -33,7 +34,7 @@ function Home() {
     <div >
       {/* <div className=" navbar-home ">
       </div> */}
-
+      
 
 
       <div className=" home-container-big-logo ">
@@ -60,6 +61,14 @@ function Home() {
 
       </div>
 
+      <div className="card-content">
+        {/* <Card  image={} text={}/>  */}
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      
       <div className="square-button-container border ">
       {/* width={} */}
         <SquareButton width={800} imageSrc={bread} children="Хлеб" />
