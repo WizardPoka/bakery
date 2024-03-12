@@ -1,0 +1,23 @@
+.navbarHome {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    background-color: #4e2929e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbarHome p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarHome p span {
+    margin-left: 10px;
+  }
+  

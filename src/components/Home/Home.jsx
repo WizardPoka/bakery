@@ -5,12 +5,8 @@ import useNavigation from "../../hooks/useNavigation";
 import "../Button/Button.css"
 import "./Home.css";
 
-import Button from "../Button/Button";
 import SquareButton from "../SquareButton/SquareButton"; 
 
-
-// ===================================================================
-import logo_big_pancake from "../../images/logo_big_pancake.jpg";
 // ===================================================================
 import kurasan from "../../images/kurasan.jpg";
 import bread from "../../images/bread.jpg";
@@ -19,6 +15,10 @@ import cookies from "../../images/cookies.jpg";
 import salad from "../../images/salad.jpg";
 import semi_finished_products from "../../images/semi_finished_products.jpg";
 import Card from "../Cards/Card";
+import Navbar from "../Navbars/Navbar/Navbar";
+import NavbarUp from "../Navbars/NavbarUp/NavbarUp";
+import NavbarDown from "../Navbars/NavbarDown/NavbarDown";
+import BigLogo from "../BigLogo/BigLogo";
 
 function Home() {
   const { navigateTo } = useNavigation();
@@ -32,43 +32,16 @@ function Home() {
 
   return (
     <div >
-      {/* <div className=" navbar-home ">
-      </div> */}
-      
+      {/* ================================================================================== */}
 
+      <NavbarUp />
 
-      <div className=" home-container-big-logo ">
-        
-        <img 
-            src={logo_big_pancake}  
-            alt="Картинка" 
-            className="image"/>
+      <Navbar />
 
+      <BigLogo />
 
-        
-      <div className="inner-container">  
-          <p className="text-big-logo-bakery"> 
-            ПЕЧЬ <br/> ЛЮБИТЬ <br/> РАДОВАТЬ 
-          </p>
+      {/* ================================================================================== */}
 
-          <p className="text-big-logo-katalog">
-            Перейти в каталог &nbsp;
-            <span style={{ fontSize: '30px' }}>&#8594;</span>
-          </p>
-          
-        </div>
-        
-
-      </div>
-
-      <div className="card-content">
-        {/* <Card  image={} text={}/>  */}
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      
       <div className="square-button-container border ">
       {/* width={} */}
         <SquareButton width={800} imageSrc={bread} children="Хлеб" />
@@ -77,39 +50,29 @@ function Home() {
           
       </div>
 
+      {/* ================================================================================== */}
+
       <div className="square-button-container border ">
         <SquareButton width={400} imageSrc={cake} children="Пироги" />
         <SquareButton width={800} imageSrc={cookies} children="Кондитерские изделия" />
         <SquareButton width={400} imageSrc={semi_finished_products} children="Полуфабрикаты" />
       </div>
+      
+      {/* ================================================================================== */}
 
-      {/* <div className=" home-container border ">
-
-        <div className="left-content border">
-          <h2>Добро пожаловать на главную страницу</h2>
-          <Button onClick={handleButtonClickUsers}>Users</Button>
-          <Button onClick={handleButtonClickLogin}>Login</Button>
-        </div>
-
-        <div className="right-content border">
-          <img 
-          src={kurasan}  
-          alt="Картинка" 
-          width={200}
-          height={200}/> 
-        </div>
-        
-
+      <div className="card-content">
+        {/* <Card  image={} text={}/>  */}
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
 
-      <div className="right-content border">
-        <img 
-        src={kurasan}  
-        alt="Картинка" 
-        width={200}
-        height={200}/> 
-      </div> */}
+      {/* ================================================================================== */}
 
+      <NavbarDown />
+
+      {/* ================================================================================== */}
     </div>
     
   );

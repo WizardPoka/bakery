@@ -1,0 +1,23 @@
+.navbarHomeDown {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    background-color: #3b1414ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbarHomeDown p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarHomeDown p span {
+    margin-left: 10px;
+  }
+  

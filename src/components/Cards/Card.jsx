@@ -28,7 +28,7 @@ function Card() {
         </div>
       </div>
       <div className={styles.product_list}>
-        <h3>Маленькое черное платье</h3>
+        <h3>Салат «Столичный» с курицей</h3>
         <div className={styles.price}>&#8381; 1999</div>
       </div>
     </div>

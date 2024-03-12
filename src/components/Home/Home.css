@@ -12,13 +12,25 @@ body, html {
   }
 
 /* ==================================================================================== */
-
+.navbar-home-up {
+  /* border: 2px solid #000; */
+  margin: 0px 0px;
+  padding: 0px;
+  height: 70px;
+  background-color: #3b1414ef;
+}
 .navbar-home {
-    border: 2px solid #000; /* Линии по краям контейнера */
-    margin: 0px 10px;
+    /* border: 2px solid #000; */
+    margin: 0px 0px;
     padding: 0px;
-    height: 70px
+    height: 70px;
+    background-color: #4e2929e1;
   }
+
+.navbar-home-text {
+    text-align: center;
+    justify-content: center;
+}
 
 /* ==================================================================================== */
 
@@ -122,6 +134,14 @@ body, html {
   flex-direction: row;
   text-align: center;
   margin: 10px 200px;
+}
+
+.navbar-home-down {
+  /* border: 2px solid #000; */
+  margin: 0px 0px;
+  padding: 0px;
+  height: 500px;
+  background-color: #3b1414ef;
 }
 
 @media (min-width: 768px) {
