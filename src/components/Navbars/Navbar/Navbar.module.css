@@ -1,23 +1,38 @@
-.navbarHome {
-    margin: 0;
-    padding: 0;
-    height: 70px;
-    background-color: #4e2929e1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #45383D; /* Чуть светлее цвет */
+  padding: 10px 20px; /* Добавляем немного отступов */
+  height: 50px;
+}
+
+.logo {
+  font-size: 24px; /* Большой красивый шрифт */
+  font-family: 'Arial', sans-serif; /* Укажите красивый шрифт */
+  color: white;
+  margin: 0px 100px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.links p {
+  margin: 0 10px; /* Отступы между элементами */
+  font-size: 18px; /* Красивый шрифт */
+  font-family: 'Arial', sans-serif; /* Укажите красивый шрифт */
+}
+
+.icons {
+  margin: 0px 100px; /* Отступы иконок от боков */
+}
+
+.icons span {
+  margin: 0 15px; /* Отступы между иконками */
+  font-size: 28px; /* Размер иконок */
+  color: red; /* Красный цвет сердца */
   
-  .navbarHome p {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbarHome p span {
-    margin-left: 10px;
-  }
-  
+}

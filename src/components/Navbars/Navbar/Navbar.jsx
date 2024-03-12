@@ -3,12 +3,20 @@ import styles from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <div className={styles.navbarHome}>
-      <p>
-        Logo О компании Продукция Доставка Торты на заказ Акции Адреса и контакты
-        <span role="img" aria-label="Heart">❤️</span>
-        Корзина
-      </p>
+    <div className={styles.navbar}>
+      <p className={styles.logo}>Logo</p>
+      <div className={styles.links}>
+        <p>О компании</p>
+        <p>Продукция</p>
+        <p>Доставка</p>
+        <p>Торты на заказ</p>
+        <p>Акции</p>
+        <p>Адреса и контакты</p>
+      </div>
+      <div className={styles.icons}>
+        <span>&#x2764;</span>
+        <span>&#x1F6D2;</span>
+      </div>
     </div>
   );
 }

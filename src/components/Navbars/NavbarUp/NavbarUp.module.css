@@ -1,23 +1,31 @@
-.navbarHomeUp {
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    background-color: #4e2929e1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .navbarHomeUp p {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbarHomeUp p span {
-    margin-left: 10px;
-  }
-  
+.navbarUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #37272D; /* Чуть светлее цвет */
+  padding: 10px 20px; /* Добавляем немного отступов */
+  height: 50px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 24px; /* Размер иконки */
+  height: 24px;
+  margin-right: 10px; /* Отступ между иконкой и текстом */
+}
+
+.arrow {
+  transform: rotate(180deg); /* Поворачиваем символ ^ */
+  margin-left: 5px; /* Небольшой отступ после стрелки */
+  color: white;
+}
+
+.phoneNumber {
+  font-size: 18px; /* Красивый шрифт */
+  font-family: 'Your Beautiful Font', Arial, sans-serif; /* Укажите красивый шрифт */
+  color: white; /* Белый цвет текста */
+}

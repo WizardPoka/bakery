@@ -1,0 +1,49 @@
+.galleryCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .imageContainer {
+    display: flex;
+    overflow-x: auto;
+    margin: 0 50px; /* Отступы по краям */
+  }
+ 
+  
+  
+  .image {
+    width: 500px; /* Задайте фиксированную ширину для изображений */
+    height: 300px; /* Задайте фиксированную высоту для изображений */
+    border-radius: 10px; /* Добавьте скругление углов, если необходимо */
+    object-fit: cover; /* Заполните изображение в контейнере, сохраняя пропорции */
+    margin-right: 20px; /* Отступ между изображениями */
+    transition: opacity 0.3s ease-in-out;
+    object-position: center; /* Укажите центральную точку обрезки */
+  }
+  
+  
+  
+  .active {
+    opacity: 1; /* Показываем текущее изображение */
+  }
+  
+  .arrowIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .leftArrowButton,
+  .rightArrowButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 50px;
+  }
+  
+  .leftArrowButton:hover,
+  .rightArrowButton:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Цвет при наведении */
+  }
+  

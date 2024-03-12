@@ -5,7 +5,7 @@ import useNavigation from "../../hooks/useNavigation";
 import "../Button/Button.css"
 import "./Home.css";
 
-import SquareButton from "../SquareButton/SquareButton"; 
+
 
 // ===================================================================
 import kurasan from "../../images/kurasan.jpg";
@@ -14,11 +14,17 @@ import cake from "../../images/cake.jpg";
 import cookies from "../../images/cookies.jpg";
 import salad from "../../images/salad.jpg";
 import semi_finished_products from "../../images/semi_finished_products.jpg";
+
+// ===================================================================
+import SquareButton from "../SquareButton/SquareButton"; 
 import Card from "../Cards/Card";
 import Navbar from "../Navbars/Navbar/Navbar";
 import NavbarUp from "../Navbars/NavbarUp/NavbarUp";
 import NavbarDown from "../Navbars/NavbarDown/NavbarDown";
 import BigLogo from "../BigLogo/BigLogo";
+import GalleryCarousel from "../GalleryCarousel/GalleryCarousel";
+
+// ===================================================================
 
 function Home() {
   const { navigateTo } = useNavigation();
@@ -30,7 +36,10 @@ function Home() {
     navigateTo("/users");
   };
 
+// ===================================================================
+
   return (
+    
     <div >
       {/* ================================================================================== */}
 
@@ -68,6 +77,22 @@ function Home() {
         <Card />
       </div>
 
+      {/* ================================================================================== */}
+      
+      <div className="card-content">
+        {/* <Card  image={} text={}/>  */}
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+
+      {/* ================================================================================== */}
+      
+      <GalleryCarousel 
+      images={[bread, kurasan, salad, cake, cookies, semi_finished_products]} 
+      />
+     
       {/* ================================================================================== */}
 
       <NavbarDown />
