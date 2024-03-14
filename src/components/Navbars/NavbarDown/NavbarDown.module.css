@@ -1,23 +1,38 @@
-.navbarHomeDown {
-    margin: 0;
-    padding: 0;
-    height: 500px;
-    background-color: #45383D;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .navbarHomeDown p {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbarHomeDown p span {
-    margin-left: 10px;
-  }
-  
+/* NavbarDown.module.css */
+.navbarDown {
+  background-color: #37272D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.columns-container {
+  display: flex;
+}
+
+.column {
+  margin-left: 20px;
+}
+
+.icons {
+  display: flex;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
