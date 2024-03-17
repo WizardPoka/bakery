@@ -35,9 +35,9 @@ body, html {
 /* ==================================================================================== */
 
 .border {
-    border: 2px solid #000; /* Линии по краям контейнера */
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
+    /* border: 2px solid #000;  */
+    /* margin: 10px 10px 10px 10px;
+    padding: 10px; */
   }
 
 /* ==================================================================================== */
@@ -46,10 +46,13 @@ body, html {
     display: flex;
     position: relative;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    margin: auto;
+    /* margin: auto; */
     max-width: 100%;
     padding: 10px;
+    /* background-color: #37272D; */
     box-sizing: border-box; /* Добавим box-sizing */
   }
   
@@ -133,9 +136,16 @@ body, html {
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 10px 200px;
+  
 }
 
+.card-background-color {
+  background-color: #37272D;
+  padding: 100px;
+}
 .navbar-home-down {
   /* border: 2px solid #000; */
   margin: 0px 0px;

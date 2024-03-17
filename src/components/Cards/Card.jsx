@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './Card.module.css'; // Правильный путь к модульному файлу стилей
 import kurasan from "../../images/kurasan.jpg";
 
-function Card() {
+function Card({ width , text , imageSrc }) {
   return (
     <div className={styles.product_wrap} >
       <div className={styles.product_image}>
-        <a href=""><img src={kurasan} width={500} height={500} alt="Product" /></a>
+        <a href=""><img src={imageSrc} width={300} height={300} alt="Product" /></a>
         <div className={styles.shadow}></div>
         <div className={styles.actions}>
           {/* <div className={styles.actions_btn}>
