@@ -13,7 +13,7 @@
 }
 
 .square-button img {
-  height: 450px;
+  height: 500px;
   width: 100%;
   object-fit: cover; /* Заполнение изображения без искажений */
   border-radius: 10px; /* Радиус скругления углов (если нужно) */

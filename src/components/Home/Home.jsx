@@ -58,48 +58,47 @@ function Home() {
       <BigLogo />
 
       {/* ================================================================================== */}
+      <div className="square">
+        <div className="square-button-container ">
+        {/* width={} */}
+          <SquareButton width={800} imageSrc={bread} children="Хлеб" />
+          <SquareButton width={400} imageSrc={kurasan} children="Выпечка" />
+          <SquareButton width={800} imageSrc={cookies} children="Кондитерские изделия" />  
+        </div>
 
-      <div className="square-button-container border ">
-      {/* width={} */}
-        <SquareButton width={400} imageSrc={bread} children="Хлеб" />
-        <SquareButton width={400} imageSrc={kurasan} children="Выпечка" />
-        <SquareButton width={800} imageSrc={cookies} children="Кондитерские изделия" />  
+        {/* ================================================================================== */}
+
+        <div className="square-button-container ">
+          <SquareButton width={800} imageSrc={semi_finished_products} children="Полуфабрикаты" />
+          <SquareButton width={400} imageSrc={cake} children="Пироги" />
+          <SquareButton width={400} imageSrc={salad} children="Готовая еда" />
+        </div>
       </div>
-
-      {/* ================================================================================== */}
-
-      <div className="square-button-container border ">
-        <SquareButton width={800} imageSrc={semi_finished_products} children="Полуфабрикаты" />
-        <SquareButton width={400} imageSrc={cake} children="Пироги" />
-        <SquareButton width={400} imageSrc={salad} children="Готовая еда" />
-        
-      </div>
-      
       {/* ================================================================================== */}
       <div className="card-background-color">
       <div className="card-content">
         {/* <Card  image={} text={}/>  */}
-        <Card imageSrc={cake} />
-        <Card imageSrc={cookies} />
-        <Card imageSrc={salad} />
-        <Card imageSrc={semi_finished_products} />
+        <Card height={300} imageSrc={cake} text="Пирог"/>
+        <Card height={300} imageSrc={cookies} text="Печенье"/>
+        <Card height={300} imageSrc={salad} text="Салат"/>
+        <Card height={300} imageSrc={semi_finished_products} text="Котлеты"/>
       </div>
 
       {/* ================================================================================== */}
       
       <div className="card-content">
         {/* <Card  image={} text={}/>  */}
-        <Card imageSrc={cookies} />
-        <Card imageSrc={salad} />
-        <Card imageSrc={semi_finished_products} />
-        <Card imageSrc={cake} />
+        <Card height={300} imageSrc={cookies} text="Печенье" />
+        <Card height={300} imageSrc={salad} text="Салат"/>
+        <Card height={300} imageSrc={semi_finished_products} text="Котлеты"/>
+        <Card height={300} imageSrc={cake} text="Пирог"/>
       </div>
       </div>
       {/* ================================================================================== */}
 
       <div>
       <TextWithImage
-        text="Ваш текст здесь"
+        text="Ваш текст здесь" // можно передать текст
         imageUrl={bigImage}
       />
       </div>

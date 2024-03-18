@@ -41,19 +41,23 @@ body, html {
   }
 
 /* ==================================================================================== */
-
+.square {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background-color: #37272D; */
+}
 .square-button-container {
     display: flex;
     position: relative;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: row;
-    /* margin: auto; */
     max-width: 100%;
     padding: 10px;
-    /* background-color: #37272D; */
+    
     box-sizing: border-box; /* Добавим box-sizing */
+    
   }
   
 /* ==================================================================================== */
@@ -138,7 +142,7 @@ body, html {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 10px 200px;
+  margin: 10px 20px;
   
 }
 
